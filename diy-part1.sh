@@ -11,7 +11,7 @@
 #
 sudo apt install libtinfo5
 #sudo apt install redsocks2
-sudo apt install microsocks
+#sudo apt install microsocks
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
