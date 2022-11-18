@@ -9,7 +9,9 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-sudo apt install libtinfo5 redsocks2 microsocks
+sudo apt install libtinfo5
+sudo apt install redsocks2
+sudo apt install microsocks
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
