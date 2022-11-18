@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 sudo apt install libtinfo5
-sudo apt install redsocks2
+#sudo apt install redsocks2
 sudo apt install microsocks
 
 # Uncomment a feed source
