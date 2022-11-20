@@ -10,8 +10,6 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 sudo apt install libtinfo5
-# 修改openwrt登陆地址 diy1.sh
-sed -i 's/192.168.1.1/192.168.31.88/g' package/base-files/files/bin/config_generate
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
