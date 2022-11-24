@@ -7,6 +7,7 @@ wget -O ./package/base-files/files/etc/banner https://raw.githubusercontent.com/
 # 替换默认argon主题
 rm -rf ./feeds/luci/themes/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./feeds/luci/themes/luci-theme-argon
 sed -i 's#luci-theme-bootstrap#luci-theme-argon#g' feeds/luci/collections/luci/Makefile
+sed -i 's/bootstrap/argon/g' feeds/luci/collections/luci-ssl-nginx/Makefile
 sed -i 's/bootstrap/argon/g' feeds/luci/modules/luci-base/root/etc/config/luci
 
 # 修改argon主题默认壁纸Change default BackGround img
