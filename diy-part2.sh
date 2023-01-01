@@ -1,6 +1,6 @@
 #!/bin/bash
 # 修改openwrt登陆地址 
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
 # 修改默认banner
 wget -O ./package/base-files/files/etc/banner https://raw.githubusercontent.com/nkym233/img/main/banner
 
